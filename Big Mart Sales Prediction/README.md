@@ -29,5 +29,54 @@ The dataset used in this project has the following columns:
   * **Outlet_Type:** Type of outlet (e.g., Grocery Store, Supermarket).
   * **Item_Outlet_Sales:** Sales of the item at the respective outlet (target variable).
 ## Installation
+To run this project locally, follow these steps:
 
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/AhmedTarek23/Data-Science-Projects/tree/main/Big%20Mart%20Sales%20Prediction.git
+    ```
+2. Navigate to the project directory:
+    ```bash
+    cd Big Mart Sales Prediction
+    ```
+3. Install the required packages:
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+## Exploratory Data Analysis
+The exploratory data analysis (EDA) includes:
+- Distribution analysis of numerical features
+- Correlation analysis between features and sales
+- Visualization of sales trends by product type and outlet type
+
+## Feature Engineering
+In this project, we performed several feature engineering steps:
+- Imputation of missing values for `Item_Weight`
+- Imputation of missing values for `Outlet_Size`
+- Handling categorical variables with encoding techniques
+
+## Modeling
+We trained and evaluated several machine learning models:
+- Linear Regression
+- Decision Trees
+- Random Forest
+- Gradient Boosting
+
+The performance of these models was evaluated using metrics like RMSE (Root Mean Square Error) and R².
+
+## Results
+The best-performing model was **Ridge**, achieving an R2 of **0.75** on the test data.
+
+## Technologies Used
+- Python
+- Pandas
+- NumPy
+- Scikit-learn
+- Matplotlib
+- Seaborn
+- Jupyter Notebook
+
+## Streamlit App
+You can interact with the Market Sales Prediction application through the following link: [Market Sales Prediction App](https://market-sales-prediction.streamlit.app/)
 
